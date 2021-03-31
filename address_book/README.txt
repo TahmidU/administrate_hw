@@ -1,5 +1,6 @@
 Technologies used in this project...
 Web Framework used: Spring Boot.
+Template Engine used: Thymeleaf.
 ORM used: Hibernate.
 Database: H2.
 Plug-ins used: Lomlok.
