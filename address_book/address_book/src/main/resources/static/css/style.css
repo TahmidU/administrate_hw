@@ -1,0 +1,124 @@
+body{
+    font-family: 'Segoe UI';
+    height: 100%;
+}
+
+.navbar-brand img{
+    max-height: 2rem;
+}
+
+.landing{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 6rem;
+    background: white;
+}
+
+.landing h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.landing button{
+    text-transform: uppercase;
+}
+
+.page-title{
+    margin-top: 0.6rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.list-main{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.btn-section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.list-row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.6rem;
+    padding: 2rem;
+    background-color: #f1f1f1;
+}
+
+.row-name{
+    color: black;
+    font-size: 2rem;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.current-details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #f1f1f1;
+    padding: 2rem;
+}
+
+.current-details p{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.manage-organisation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+}
+
+.organisation-people-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.organisation-people-list-title{
+    font-weight: bold;
+}
+
+.organisation-people-list-btn{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    flex-wrap: 1rem;
+    gap: 1rem;
+
+}
+
+footer{
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
